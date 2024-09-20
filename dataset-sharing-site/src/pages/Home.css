@@ -1,0 +1,23 @@
+/* Correct path to load Korataki font from src/assets */
+/* Load Bebas Neue font from assets folder */
+/* Load Bebas Neue font from assets folder */
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../assets/fonts/bebas_neue_regular.ttf') format('truetype');
+    font-weight: normal;
+  }
+  
+  /* Apply Bebas Neue font to headings */
+  .bebas-font {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;  /* Set to bold */
+    color: #ffffff;     /* Set text color to white */
+  }
+  
+  /* Typography shadow for readability */
+  .typography-shadow {
+    text-shadow: 3px 3px 5px #000000;
+  }
+  
+
+  
